@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1e95b2e-71c2-4d22-9be7-40e4d9172585" name="Default" comment="  - TSPHP-660 Rename token CASTING_ASSIGN to CAST_ASSIGN&#10;    - added new parser tokens&#10;    - amended tree walker accordingly&#10;    - added new parser and typechecker component version&#10;  - added new common component version" />
+    <ignored path="TSPHP-translators-php54.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="TSPHP-translators-php54" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="30" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.43935928" vertical-offset="0" max-vertical-offset="874">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/copy-stg.xml" />
+        <option value="$PROJECT_DIR$/intellij.xml" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/translators/php54/TempVariableHelper.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/EchoTest.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/ForTest.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/ForeachTest.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/IfTest.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/ReturnTest.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/SwitchTest.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/ThrowTest.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/WhileTest.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/VariableDeclarationTest.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/testutils/ExpressionHelper.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/ExpressionTest.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/FunctionTest.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/testutils/ParameterListHelper.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/testutils/TypeHelper.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/TempVariableHelper_ScopesTest.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/TempVariableHelperScopesTest.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/testutils/AssignHelper.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/unit/TempVariableHelperTest.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/translators/php54/antlr/package-info.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/translators/php54/antlrmod/package-info.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/translators/php54/package-info.java" />
+        <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/ant/copyParser.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TSPHP-translators-php54" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TSPHP-translators-php54" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TSPHP-translators-php54" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TSPHP-translators-php54" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch.tutteli.tsphp.translators.php54" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Changed Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="TSPHP-translators-php54">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="TSPHP-translators-php54">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="test">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ch/tutteli/tsphp/translators/php54/test">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="TSPHP-translators-php54">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="test">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ch/tutteli/tsphp/translators/php54/test">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="integration">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TSPHP-translators-php54" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TSPHP-translators-php54" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tsphp-translators-php54" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
+    <property name="last_opened_file_path" value="C:/tsphp-typechecker" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="tsphp-translators-php54" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ch.tutteli.tsphp.translators.php54" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in TSPHP-translators-php54">
+    <configuration default="false" name="FunctionTest.testStrings" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="TSPHP-translators-php54" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ch.tutteli.tsphp.translators.php54.test.integration.parser" />
+      <option name="MAIN_CLASS_NAME" value="ch.tutteli.tsphp.translators.php54.test.integration.parser.FunctionTest" />
+      <option name="METHOD_NAME" value="testStrings" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FunctionTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="TSPHP-translators-php54" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ch.tutteli.tsphp.translators.php54.test.integration.parser" />
+      <option name="MAIN_CLASS_NAME" value="ch.tutteli.tsphp.translators.php54.test.integration.parser.FunctionTest" />
+      <option name="METHOD_NAME" value="testStrings" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FunctionTest.test" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="TSPHP-translators-php54" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ch.tutteli.tsphp.translators.php54.test.integration.parser" />
+      <option name="MAIN_CLASS_NAME" value="ch.tutteli.tsphp.translators.php54.test.integration.parser.FunctionTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in TSPHP-translators-php54" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="TSPHP-translators-php54" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="VariableInitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TSPHP-translators-php54" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ch.tutteli.tsphp.translators.php54.test.integration.typechecker" />
+      <option name="MAIN_CLASS_NAME" value="ch.tutteli.tsphp.translators.php54.test.integration.typechecker.VariableInitTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GriffonRunConfigurationType" factoryName="Griffon">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="true" />
+      <setting name="passParentEnv" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FunctionTest.testStrings" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FunctionTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FunctionTest.test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.All in TSPHP-translators-php54" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.VariableInitTest" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in TSPHP-translators-php54" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.VariableInitTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FunctionTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FunctionTest.test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FunctionTest.testStrings" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SpellCheckerSettings" BundledDictionaries="1" BundledDictionary0="english.dic" Folders="1" Folder0="file://$PROJECT_DIR$/../" Dictionaries="0" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1e95b2e-71c2-4d22-9be7-40e4d9172585" name="Default" comment="" />
+      <created>1377461319577</created>
+      <updated>1377461319577</updated>
+    </task>
+    <task id="LOCAL-00001" summary="TSPHP-584 remove copyright and author block from files&#10;Cleanups">
+      <created>1380279290998</created>
+      <updated>1380279290998</updated>
+    </task>
+    <task id="LOCAL-00002" summary="TSPHP-567 class/interface cast operator - expression several times evaluated - fixed, test adapted and amended&#10;TSPHP-646 intellij - multiple ant task with same name - changes made to the build files&#10;">
+      <created>1386151639505</created>
+      <updated>1386151639505</updated>
+    </task>
+    <task id="LOCAL-00003" summary="TSPHP-567 class/interface cast operator - expression several times evaluated - fixed, test adapted and amended&#10;TSPHP-646 intellij - multiple ant task with same name - changes made to the build files&#10;Added new versions of common, parser and typechecker">
+      <created>1386152074520</created>
+      <updated>1386152074520</updated>
+    </task>
+    <task id="LOCAL-00004" summary="TSPHP-589 translator - integration test optional parameters&#10;TSPHP-536 null as default value for parameters">
+      <created>1386185277072</created>
+      <updated>1386185277072</updated>
+    </task>
+    <task id="LOCAL-00005" summary="TSPHP-462 check that variable is initialised &#10;- had to adjust some tests due to the new constraint isVariableInitialised in the typechecker component&#10; &#10;- Added the latest versions of the common, parser and typechecker component&#10;">
+      <created>1387231078744</created>
+      <updated>1387231078744</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24813631" sideWeight="0.67074525" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.67074525" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20500532" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32254586" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32297447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="TSPHP-584 remove copyright and author block from files" />
+    <MESSAGE value="TSPHP-584 remove copyright and author block from files&#10;Cleanups" />
+    <MESSAGE value="TSPHP-567 class/interface cast operator - expression several times evaluated - fixed, test adapted and amended&#10;TSPHP-646 intellij - multiple ant task with same name - changes made to the build files&#10;" />
+    <MESSAGE value="TSPHP-567 class/interface cast operator - expression several times evaluated - fixed, test adapted and amended&#10;TSPHP-646 intellij - multiple ant task with same name - changes made to the build files&#10;Added new versions of common, parser and typechecker" />
+    <MESSAGE value="TSPHP-589 translator - integration test optional parameters&#10;TSPHP-536 null as default value for parameters" />
+    <MESSAGE value="TSPHP-462 check that variable is initialised &#10;- had to adjust some tests due to the new constraint isVariableInitialised in the typechecker component&#10; &#10;- Added the latest versions of the common, parser and typechecker component&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="TSPHP-462 check that variable is initialised &#10;- had to adjust some tests due to the new constraint isVariableInitialised in the typechecker component&#10; &#10;- Added the latest versions of the common, parser and typechecker component&#10;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+    <buildFile url="file://$PROJECT_DIR$/build.xml">
+      <targetFilters>
+        <filter targetName="info" isVisible="true" />
+        <filter targetName="antlr" isVisible="true" />
+        <filter targetName="init" isVisible="true" />
+        <filter targetName="compile" isVisible="true" />
+        <filter targetName="jar" isVisible="true" />
+        <filter targetName="test" isVisible="true" />
+        <filter targetName="checkstyle" isVisible="true" />
+        <filter targetName="pmd" isVisible="true" />
+        <filter targetName="cpd" isVisible="true" />
+        <filter targetName="findbugs" isVisible="true" />
+        <filter targetName="javadoc" isVisible="true" />
+        <filter targetName="dist" isVisible="true" />
+        <filter targetName="run" isVisible="true" />
+        <filter targetName="clean" isVisible="true" />
+        <filter targetName="report" isVisible="true" />
+        <filter targetName="build" isVisible="true" />
+        <filter targetName="compile.properties" isVisible="false" />
+        <filter targetName="cp.typechecker" isVisible="true" />
+        <filter targetName="compile.prod" isVisible="false" />
+        <filter targetName="compile.test" isVisible="false" />
+        <filter targetName="unittest" isVisible="true" />
+        <filter targetName="common" isVisible="true" />
+        <filter targetName="parser" isVisible="true" />
+        <filter targetName="Antlr" isVisible="true" />
+      </targetFilters>
+      <expanded value="true" />
+    </buildFile>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/unit/TempVariableHelperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.0" vertical-offset="624" max-vertical-offset="1232" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/typechecker/VariableInitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="672" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/typechecker/AssignmentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="31" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0" vertical-offset="496" max-vertical-offset="672" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/testutils/AssignHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="237" column="1" selection-start="7946" selection-end="7946" vertical-scroll-proportion="0.0" vertical-offset="3082" max-vertical-offset="3904" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/testutils/TypeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="70" selection-start="4374" selection-end="4415" vertical-scroll-proportion="0.0" vertical-offset="2064" max-vertical-offset="2736">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/TempVariableHelperScopesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.0" vertical-offset="448" max-vertical-offset="2160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/translators/php54/antlr/PHP54TranslatorWalker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2352" column="26" selection-start="74314" selection-end="74314" vertical-scroll-proportion="0.0" vertical-offset="37632" max-vertical-offset="174656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/testutils/ExpressionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="159" column="35" selection-start="7014" selection-end="7014" vertical-scroll-proportion="0.0" vertical-offset="2544" max-vertical-offset="3328">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/testutils/ParameterListHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="235" column="46" selection-start="10889" selection-end="10889" vertical-scroll-proportion="0.0" vertical-offset="3760" max-vertical-offset="4400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/FunctionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/unit/TempVariableHelperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.0" vertical-offset="624" max-vertical-offset="1232" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/typechecker/VariableInitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="672" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/typechecker/AssignmentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="31" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0" vertical-offset="496" max-vertical-offset="672" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/testutils/AssignHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="237" column="1" selection-start="7946" selection-end="7946" vertical-scroll-proportion="0.0" vertical-offset="3082" max-vertical-offset="3904" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/testutils/TypeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="70" selection-start="4374" selection-end="4415" vertical-scroll-proportion="0.0" vertical-offset="2064" max-vertical-offset="2736">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/TempVariableHelperScopesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.0" vertical-offset="448" max-vertical-offset="2160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/translators/php54/antlr/PHP54TranslatorWalker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2352" column="26" selection-start="74314" selection-end="74314" vertical-scroll-proportion="0.0" vertical-offset="37632" max-vertical-offset="174656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/testutils/ExpressionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="159" column="35" selection-start="7014" selection-end="7014" vertical-scroll-proportion="0.0" vertical-offset="2544" max-vertical-offset="3328">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/testutils/ParameterListHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="235" column="46" selection-start="10889" selection-end="10889" vertical-scroll-proportion="0.0" vertical-offset="3760" max-vertical-offset="4400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/ExpressionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="59" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="736" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/VariableDeclarationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.0" vertical-offset="656" max-vertical-offset="944" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/FunctionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0" vertical-offset="256" max-vertical-offset="864" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/unit/TempVariableHelperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="16" selection-start="2070" selection-end="2070" vertical-scroll-proportion="0.0" vertical-offset="912" max-vertical-offset="1232" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/translators/php54/antlr/PHP54TranslatorWalker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2352" column="26" selection-start="74314" selection-end="74314" vertical-scroll-proportion="0.0" vertical-offset="37632" max-vertical-offset="174656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/testutils/ExpressionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="159" column="35" selection-start="7014" selection-end="7014" vertical-scroll-proportion="0.0" vertical-offset="2544" max-vertical-offset="3328">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/testutils/ParameterListHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="235" column="46" selection-start="10889" selection-end="10889" vertical-scroll-proportion="0.0" vertical-offset="3760" max-vertical-offset="4400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/ForTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="54" selection-start="2108" selection-end="2108" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/SwitchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="73" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/ThrowTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="43" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.604119" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/IfTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="54" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.32265446" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/WhileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="54" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.35926774" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/PostFixTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="456" selection-end="456" vertical-scroll-proportion="0.018306635" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/ReturnTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="544" selection-end="544" vertical-scroll-proportion="0.27459955" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/VariableDeclarationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/ExpressionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="59" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/translators/php54/antlr/PHP54TranslatorWalker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2352" column="26" selection-start="74302" selection-end="74302" vertical-scroll-proportion="0.0" vertical-offset="37632" max-vertical-offset="174656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/testutils/ExpressionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="159" column="35" selection-start="7014" selection-end="7014" vertical-scroll-proportion="0.1308204" vertical-offset="2426" max-vertical-offset="3328">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/testutils/ParameterListHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="235" column="46" selection-start="10889" selection-end="10889" vertical-scroll-proportion="0.29046562" vertical-offset="3498" max-vertical-offset="4400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/parser/FunctionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/TempVariableHelperScopesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/typechecker/AssignmentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="31" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="512" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/testutils/AssignHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="237" column="1" selection-start="7946" selection-end="7946" vertical-scroll-proportion="0.0" vertical-offset="3082" max-vertical-offset="3904" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/typechecker/VariableInitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="550" selection-end="550" vertical-scroll-proportion="0.13816926" vertical-offset="0" max-vertical-offset="579" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/unit/TempVariableHelperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="47" selection-start="1587" selection-end="1587" vertical-scroll-proportion="-0.38169256" vertical-offset="653" max-vertical-offset="1232" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ant/copyParser.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="10" selection-start="752" selection-end="752" vertical-scroll-proportion="0.5250432" vertical-offset="0" max-vertical-offset="579">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="10" selection-start="2343" selection-end="2343" vertical-scroll-proportion="0.9215909" vertical-offset="117" max-vertical-offset="1040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/translators/php54/antlr/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="878" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/translators/php54/antlrmod/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="878" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/translators/php54/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.08869179" vertical-offset="0" max-vertical-offset="902" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/translators/php54/test/integration/testutils/TypeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="24" selection-start="1743" selection-end="1743" vertical-scroll-proportion="-0.035476718" vertical-offset="912" max-vertical-offset="2704">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="30" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.43935928" vertical-offset="0" max-vertical-offset="874">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Detection</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>tsphp-translators-php54</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>dev</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

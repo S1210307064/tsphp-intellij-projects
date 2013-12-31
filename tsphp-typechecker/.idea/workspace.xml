@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7e62562f-40bc-4c3c-bc08-c96bd7552ab8" name="Default" comment="  * TSPHP-615 doubleDefinitionCheck return true when no error&#10;    * renaming in ScopeHelper&#10;    * renaming in IReferencePhaseController" />
+    <ignored path="TSPHP-typechecker.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="TSPHP-typechecker" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="checknew" />
+      </map>
+    </option>
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/ITypeSystem.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/TypeSystem.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/integration/testutils/definition/ADefinitionTest.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/integration/testutils/typecheck/AssignHelper.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/integration/typecheck/ConstantDeclarationTest.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/integration/typecheck/AssignmentOperatorErrorTest.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/integration/typecheck/AssignmentOperatorTest.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/IVisibilityChecker.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/PolymorphicResolver.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/SymbolResolver.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/IPolymorphicResolver.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/antlrmod/ErrorReportingTSPHPTypeCheckWalker.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/antlrmod/ErrorReportingTSPHPReferenceWalker.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/antlr/TSPHPReferenceWalker.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/integration/testutils/reference/AReferenceTest.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/integration/testutils/typecheck/ATypeCheckTest.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/VisibilityChecker.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/AccessResolver.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/IAccessResolver.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/ReferencePhaseControllerErroneousSymbolTest.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/ReferencePhaseControllerTest.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/integration/reference/BreakContinueErrorTest.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/ReferencePhaseController.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/scopes/ScopeHelper.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/IReferencePhaseController.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/TypeChecker.java" />
+        <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/InterfaceTypeSymbol.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/ITypeCheckPhaseController.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/AScopedTypeSymbol.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/TypeCheckPhaseControllerTest.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/TypeCheckPhaseControllerErrorTest.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/testutils/ATypeCheckPhaseTest.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/TypeCheckPhaseControllerPolymorphismErrorTest.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/IInterfaceTypeSymbol.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/IClassTypeSymbol.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/IPolymorphicTypeSymbol.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/APolymorphicTypeSymbol.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/ITypeCheckErrorReporter.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/IErrorMessageProvider.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/DiffDto.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/TupleList.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/TypeCheckPhaseController.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/TwoList.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/TwoListDto.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/WrongImplementationErrorDto.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/TypeCheckErrorReporter.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/erroneous/ErroneousTypeSymbol.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/AErrorMessageProvider.java" />
+        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/TypeCheckPhaseControllerErroneousSymbolTest.java" />
+        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/ErrorMessageProvider.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Error handling</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>JUnit issues</id>
+          </State>
+          <State>
+            <id>Logging issues</id>
+          </State>
+          <State>
+            <id>Memory issues</id>
+          </State>
+          <State>
+            <id>Pattern Validation</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Security issues</id>
+          </State>
+          <State>
+            <id>Serialization issues</id>
+          </State>
+          <State>
+            <id>Threading issues</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TSPHP-typechecker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TSPHP-typechecker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tsphp-typechecker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="281" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="301" />
+    <property name="options.splitter.main.proportions" value="0.21854839" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="296" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="last_opened_file_path" value="C:/test/tsphp-typechecker" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="308" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="957" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="958" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="300" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="295" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/integration/testutils" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch.tutteli.tsphp.typechecker.test.unit.scopes" />
+      <recent name="ch.tutteli.tsphp.typechecker.test.integration.reference" />
+      <recent name="ch.tutteli.tsphp.typechecker.test.integration.typecheck" />
+      <recent name="ch.tutteli.tsphp.typechecker.test.integration.testutils.typecheck" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS" />
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="ch.tutteli.tsphp.typechecker" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ch.tutteli.tsphp.typechecker" />
+      <recent name="ch.tutteli.tsphp.typechecker.test.integration.testutils" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ch.tutteli.tsphp.typechecker.test.unit.error" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS" />
+  </component>
+  <component name="RunManager" selected="JUnit.TypeCheckPhaseControllerErroneousSymbolTest">
+    <configuration default="false" name="All in TSPHP-typechecker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TSPHP-typechecker" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ConstantDeclarationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TSPHP-typechecker" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ch.tutteli.tsphp.typechecker.test.integration.typecheck" />
+      <option name="MAIN_CLASS_NAME" value="ch.tutteli.tsphp.typechecker.test.integration.typecheck.ConstantDeclarationTest" />
+      <option name="METHOD_NAME" value="testStrings" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReferencePhaseControllerTest.checkBreakContinueLevel_Level0_CallsErrorReporter0NotAllowed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TSPHP-typechecker" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ch.tutteli.tsphp.typechecker.test.unit" />
+      <option name="MAIN_CLASS_NAME" value="ch.tutteli.tsphp.typechecker.test.unit.ReferencePhaseControllerTest" />
+      <option name="METHOD_NAME" value="checkBreakContinueLevel_Level0_CallsErrorReporter0NotAllowed" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BreakContinueErrorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TSPHP-typechecker" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ch.tutteli.tsphp.typechecker.test.integration.reference" />
+      <option name="MAIN_CLASS_NAME" value="ch.tutteli.tsphp.typechecker.test.integration.reference.BreakContinueErrorTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TypeCheckPhaseControllerErroneousSymbolTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TSPHP-typechecker" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ch.tutteli.tsphp.typechecker.test.unit" />
+      <option name="MAIN_CLASS_NAME" value="ch.tutteli.tsphp.typechecker.test.unit.TypeCheckPhaseControllerErroneousSymbolTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="UseDoubleDefinitionErrorTest" type="JUnit" factoryName="JUnit">
+      <module name="TSPHP-typechecker" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ch.tutteli.tsphp.typechecker.test.integration.reference" />
+      <option name="MAIN_CLASS_NAME" value="ch.tutteli.tsphp.typechecker.test.integration.reference.UseDoubleDefinitionErrorTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="NamespaceScopeTest" type="JUnit" factoryName="JUnit">
+      <module name="TSPHP-typechecker" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ch.tutteli.tsphp.typechecker.test.unit.scopes" />
+      <option name="MAIN_CLASS_NAME" value="ch.tutteli.tsphp.typechecker.test.unit.scopes.NamespaceScopeTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.UseDoubleDefinitionErrorTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.NamespaceScopeTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All in TSPHP-typechecker" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ConstantDeclarationTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ReferencePhaseControllerTest.checkBreakContinueLevel_Level0_CallsErrorReporter0NotAllowed" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.BreakContinueErrorTest" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.TypeCheckPhaseControllerErroneousSymbolTest" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TypeCheckPhaseControllerErroneousSymbolTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.All in TSPHP-typechecker" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BreakContinueErrorTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ReferencePhaseControllerTest.checkBreakContinueLevel_Level0_CallsErrorReporter0NotAllowed" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ConstantDeclarationTest" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SpellCheckerSettings" BundledDictionaries="1" BundledDictionary0="english.dic" Folders="1" Folder0="file://C:/" Dictionaries="0" />
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value="ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e62562f-40bc-4c3c-bc08-c96bd7552ab8" name="Default" comment="" />
+      <created>1377466859265</created>
+      <updated>1377466859265</updated>
+    </task>
+    <task id="LOCAL-00001" summary="new junit library (incl. hamcrest) as well as the new common library (with registerErrorReporter)&#10;TSPHP-592 Unit-tests for typechecker - First real unit-test written for ErrorReporter - man, writing unit tests in C# is so much less painful">
+      <created>1380326459630</created>
+      <updated>1380326459630</updated>
+    </task>
+    <task id="LOCAL-00002" summary="new junit library (incl. hamcrest) as well as the new common library (with registerErrorReporter)&#10;TSPHP-592 Unit-tests for typechecker - test for Definer added, Error Reporter amended - man, writing unit tests in C# is so much less painful">
+      <created>1380402171678</created>
+      <updated>1380402171678</updated>
+    </task>
+    <task id="LOCAL-00003" summary="TSPHP-592 Unit-tests for typechecker - added test for NamespaceScope">
+      <created>1380484455902</created>
+      <updated>1380484455902</updated>
+    </task>
+    <task id="LOCAL-00004" summary="TSPHP-601 getFirstUseDefinitionAst in NamespaceScope not case insensitive - fixed, improved naming changed getUse -&gt; uses now case sensitive version">
+      <created>1380487626983</created>
+      <updated>1380487626983</updated>
+    </task>
+    <task id="LOCAL-00005" summary="TSPHP-604 remove hidden dependency ScopeHelper">
+      <created>1380982049556</created>
+      <updated>1380982049556</updated>
+    </task>
+    <task id="LOCAL-00006" summary="cleanup - typos, unused variables, added final where appropriate">
+      <created>1381090667304</created>
+      <updated>1381090667304</updated>
+    </task>
+    <task id="LOCAL-00007" summary="TSPHP-618 symbols in AScope - removed AScope as parent class of NamespaceScope. NamespaceScope has its own symbols more or less overrides all methods of AScope.&#10;Added corresponding Tests">
+      <created>1381095253245</created>
+      <updated>1381095253245</updated>
+    </task>
+    <task id="LOCAL-00008" summary="TSPHP-592 Unit-tests for typechecker - added test for ScopeHelper&#10;Added build task for real unit tests in order to get the code coverage by real unit tests only">
+      <created>1381528978953</created>
+      <updated>1381528978953</updated>
+    </task>
+    <task id="LOCAL-00009" summary="TSPHP-592 Unit-tests for typechecker - added test for ConditionalScope, GlobalNamespaceScope and ScopeFactory">
+      <created>1382220033910</created>
+      <updated>1382220033910</updated>
+    </task>
+    <task id="LOCAL-00010" summary="TSPHP-592 Unit-tests for typechecker - added test for SymbolResolver, not yet complete&#10;Moved getEnclosingNamespaceScope from SymbolResolver to IScopeHelper">
+      <created>1382224301389</created>
+      <updated>1382224301389</updated>
+    </task>
+    <task id="LOCAL-00011" summary="TSPHP-625 excl. antlr from static analysis, incl. in code coverage - improved build-common.xml &#10;Moved the ErrorReporting walkers into namespace antlrmod in order that they are considered in the static code analysis.&#10;Made a few cleanups according to pmd and findbugs report.&#10;Tighten cpd down to 50 tokens. I really do not want to have code duplication in this project">
+      <created>1382232182913</created>
+      <updated>1382232182913</updated>
+    </task>
+    <task id="LOCAL-00012" summary="TSPHP-625 excl. antlr from static analysis, incl. in code coverage - well, 50 for cpd is maybe a little bit too severe. Errors with 80 still seem reasonable to me. &#10;In addition I modified the local xslt for cpd, it did not show the errors.">
+      <created>1382234585735</created>
+      <updated>1382234585735</updated>
+    </task>
+    <task id="LOCAL-00013" summary="cleanup according to checkstyle">
+      <created>1382285093137</created>
+      <updated>1382285093137</updated>
+    </task>
+    <task id="LOCAL-00014" summary="cleanup according to checkstyle">
+      <created>1382285709919</created>
+      <updated>1382285709919</updated>
+    </task>
+    <task id="LOCAL-00015" summary="cleanup according to checkstyle and pmd&#10;Removed &quot;final parameter/variable&quot;-check from pmd (as for checkstyle)">
+      <created>1382288875259</created>
+      <updated>1382288875259</updated>
+    </task>
+    <task id="LOCAL-00016" summary="TSPHP-622 use type name clash not recognised">
+      <created>1382735437950</created>
+      <updated>1382735437950</updated>
+    </task>
+    <task id="LOCAL-00017" summary="TSPHP-490 assignment and erroneous symbols&#10;Reduced the severity of RedundantThrows check - that is not really an error.">
+      <created>1382824178976</created>
+      <updated>1382824178976</updated>
+    </task>
+    <task id="LOCAL-00018" summary="TSPHP-592 Unit-tests for typechecker&#10;Renamed ErrorReporterRegistry to TypeCheckErrorReporterRegistry">
+      <created>1386106786860</created>
+      <updated>1386106786860</updated>
+    </task>
+    <task id="LOCAL-00019" summary="TSPHP-646 intellij - multiple ant task with same name&#10;Added new versions of common and parser">
+      <created>1386152154981</created>
+      <updated>1386152154981</updated>
+    </task>
+    <task id="LOCAL-00020" summary="TSPHP-647 merge IErroneousClassTypeSymbol and IErroneousTypeSymbol&#10;TSPHP-648 ClassCastException if unknown interface&#10;Renamed AstHelper to TypeCheckerAstHelper">
+      <created>1386196760027</created>
+      <updated>1386196760027</updated>
+    </task>
+    <task id="LOCAL-00021" summary="TSPHP-592 Unit-tests for typechecker">
+      <created>1386197890316</created>
+      <updated>1386197890316</updated>
+    </task>
+    <task id="LOCAL-00022" summary="TSPHP-535 NullPointer when type for constant is missing&#10;Added new version of common component which includes ITSPHPErrorAst&#10;Exchanged TypeCheckerException with the more general TSPHPException">
+      <created>1386477361003</created>
+      <updated>1386477361003</updated>
+    </task>
+    <task id="LOCAL-00023" summary="TSPHP-463 check that method has a return value &#10;- changed reference tree parser from &quot;pattern matching&quot; to normal&#10;- implemented the check as described by TSPHP-463 directly in the tree walker&#10;- added new integration tests for the new constraint&#10;- had to fix a few current tests since they were no longer valid due to the new constraint&#10;&#10;TSPHP-655 conditional scope check for methodCallee is missing&#10;">
+      <created>1386699418517</created>
+      <updated>1386699418517</updated>
+    </task>
+    <task id="LOCAL-00024" summary="changed abstract test classes in order that one can hook in (as in BreakContinueTest)">
+      <created>1386884256116</created>
+      <updated>1386884256116</updated>
+    </task>
+    <task id="LOCAL-00025" summary="TSPHP-531 Initial value class members and cast modifier &#10;- added new check&#10;- added new error message&#10;- added corresponding tests">
+      <created>1386890756993</created>
+      <updated>1386890756993</updated>
+    </task>
+    <task id="LOCAL-00026" summary="- added modifier to the function/method return error test as well&#10;- some small cleanups">
+      <created>1386963714152</created>
+      <updated>1386963714152</updated>
+    </task>
+    <task id="LOCAL-00027" summary="TSPHP-462 check that variable is initialised&#10;- added new version of common component (includes isFullyInitialised etc.)&#10;- implemented the new check, additional code in the reference tree walker was necessary as well as additional setScope calls in the definition walker&#10;- added new integration tests for the new constraint&#10;- had to fix quite a lot of existing tests since they were no longer valid due to the new constraint&#10;&#10;TSPHP-463 check that method has a return value&#10;- Simplified the check in the reference walker (no longer using an enum)&#10;- Fixed the check in order that it returns the correct error message&#10;&#10;- Added latest parser component&#10;- Improved a few tests concerning readability and extensibility">
+      <created>1387220939007</created>
+      <updated>1387220939007</updated>
+    </task>
+    <task id="LOCAL-00028" summary="- TSPHP-660 Rename token CASTING_ASSIGN to CAST_ASSIGN - new parser tokens included&#10;- removed copyright notices in package-info.java files (left over)&#10;- added improved version of copyAntlr">
+      <created>1387709233084</created>
+      <updated>1387709233084</updated>
+    </task>
+    <task id="LOCAL-00029" summary="  - TSPHP-503 TypeCheckerController is too big&#10;    - created IReferencePhaseController and moved methods accordingly&#10;    - Renamed Definer to DefinitionPhaseController to be consistent with the other phase controllers&#10;    - Created IVisibilityChecker which contains the access check which is used in the reference phase as well as in the type check phase&#10;    - modified tests where necessary&#10;  - deleted TypeCheckerControllerIsReturningTest because it was a left  over (return check was simplified in v. 0.5.3)&#10;  - Improved ATypeSystemTest concerning extensibility&#10;  - Removed several hidden dependencies and moved them to the constructor of the corresponding classes&#10;  - TypeSystem had an init method which was called by the TypeCheckerController. Quite ugly, removed it. Yet, there is still a cyclic dependency between TypeSystem and SymbolFactory">
+      <created>1387723595965</created>
+      <updated>1387723595965</updated>
+    </task>
+    <task id="LOCAL-00030" summary="  - TSPHP-657 Assignments can only be made to variables&#10;  - TSPHP-698 an assignment to a const should not be possible other than initialisation&#10;  - Improved readability of AssignHelper">
+      <created>1387738022604</created>
+      <updated>1387738022604</updated>
+    </task>
+    <task id="LOCAL-00031" summary="  * TSPHP-621 break 0 not allowed&#10;  * Cleanups in test">
+      <created>1388225338246</created>
+      <updated>1388225338246</updated>
+    </task>
+    <task id="LOCAL-00032" summary="  * TSPHP-615 doubleDefinitionCheck return true when no error&#10;    * renaming in ScopeHelper&#10;    * renaming in IReferencePhaseController">
+      <created>1388226569921</created>
+      <updated>1388226569921</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30097088" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10543131" sideWeight="0.70300335" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36677453" sideWeight="0.84717786" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21420883" sideWeight="0.1579818" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32185146" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17583603" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26799008" sideWeight="0.63193655" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14164004" sideWeight="0.76974416" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35345775" sideWeight="0.8420182" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25134844" sideWeight="0.6256656" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22832052" sideWeight="0.62944585" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18870057" sideWeight="0.688196" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24813631" sideWeight="0.7730812" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="TSPHP-625 excl. antlr from static analysis, incl. in code coverage - improved build-common.xml &#10;Moved the ErrorReporting walker into namespace antlrmod in order that they are considered in the static code analysis.&#10;Made a few cleanups according to pmd and findbugs report.&#10;Tighten cpd down to 50 tokens. I really do not want to have code duplication in this project" />
+    <MESSAGE value="TSPHP-625 excl. antlr from static analysis, incl. in code coverage - improved build-common.xml &#10;Moved the ErrorReporting walkers into namespace antlrmod in order that they are considered in the static code analysis.&#10;Made a few cleanups according to pmd and findbugs report.&#10;Tighten cpd down to 50 tokens. I really do not want to have code duplication in this project" />
+    <MESSAGE value="TSPHP-625 excl. antlr from static analysis, incl. in code coverage - well, 50 for cpd is maybe a little bit too severe. Errors with 80 still seem reasonable to me. &#10;In addition I modified the local xslt for cpd, it did not show the errors." />
+    <MESSAGE value="cleanup according to checkstyle" />
+    <MESSAGE value="cleanup according to checkstyle and pmd&#10;Removed &quot;final parameter&quot;-check from pmd (as for checkstyle)" />
+    <MESSAGE value="cleanup according to checkstyle and pmd&#10;Removed &quot;final parameter/variable&quot;-check from pmd (as for checkstyle)" />
+    <MESSAGE value="TSPHP-622 use type name clash not recognised" />
+    <MESSAGE value="TSPHP-490 assignment and erroneous symbols&#10;Reduced the severity of RedundantThrows check - that is not really an error." />
+    <MESSAGE value="TSPHP-592 Unit-tests for typechecker&#10;Renamed ErrorReporterRegistry to TypeCheckErrorReporterRegistry" />
+    <MESSAGE value="TSPHP-646 intellij - multiple ant task with same name&#10;Added new versions of common and parser" />
+    <MESSAGE value="TSPHP-647 merge IErroneousClassTypeSymbol and IErroneousTypeSymbol&#10;TSPHP-648 ClassCastException if unknown interface&#10;Renamed AstHelper to TypeCheckerAstHelper" />
+    <MESSAGE value="TSPHP-592 Unit-tests for typechecker" />
+    <MESSAGE value="TSPHP-535 NullPointer when type for constant is missing" />
+    <MESSAGE value="TSPHP-535 NullPointer when type for constant is missing&#10;Added new version of common component which includes ITSPHPErrorAst&#10;Exchanged TypeCheckerException with the more general TSPHPException" />
+    <MESSAGE value="TSPHP-463 check that method has a return value &#10;- changed reference tree parser from &quot;pattern matching&quot; to normal&#10;- implemented the check as described by TSPHP-463 directly in the tree walker&#10;- added new integration tests for the new constraint&#10;- had to fix a few current tests since they were no longer valid due to the new constraint&#10;&#10;TSPHP-655 conditional scope check for methodCallee is missing&#10;" />
+    <MESSAGE value="changed abstract test classes in order that one can hook in (as in BreakContinueTest)" />
+    <MESSAGE value="TSPHP-531 Initial value class members and cast modifier &#10;- added new check&#10;- added new error message&#10;- added corresponding tests" />
+    <MESSAGE value="- added modifier to the function/method return error test as well&#10;- some small cleanups" />
+    <MESSAGE value="TSPHP-462 check that variable is initialised&#10;- added new version of common component (includes isFullyInitialised etc.)&#10;- implemented the new check, additional code in the reference tree walker was necessary as well as additional setScope calls in the definition walker&#10;- added new integration tests for the new constraint&#10;- had to fix quite a lot of existing tests since they were no longer valid due to the new constraint&#10;&#10;TSPHP-463 check that method has a return value&#10;- Simplified the check in the reference walker (no longer using an enum)&#10;- Fixed the check in order that it returns the correct error message&#10;&#10;- Added latest parser component&#10;- Improved a few tests concerning readability and extensibility" />
+    <MESSAGE value="- TSPHP-660 Rename token CASTING_ASSIGN to CAST_ASSIGN - new parser tokens included&#10;- removed copyright notices in package-info.java files (left over)&#10;- added improved version of copyAntlr" />
+    <MESSAGE value="  - TSPHP-503 TypeCheckerController is too big&#10;    - created IReferencePhaseController and moved methods accordingly&#10;    - Renamed Definer to DefinitionPhaseController to be consistent with the other phase controllers&#10;    - Created IVisibilityChecker which contains the access check which is used in the reference phase as well as in the type check phase&#10;    - modified tests where necessary&#10;  - deleted TypeCheckerControllerIsReturningTest because it was a left  over (return check was simplified in v. 0.5.3)&#10;  - Improved ATypeSystemTest concerning extensibility&#10;  - Removed several hidden dependencies and moved them to the constructor of the corresponding classes&#10;  - TypeSystem had an init method which was called by the TypeCheckerController. Quite ugly, removed it. Yet, there is still a cyclic dependency between TypeSystem and SymbolFactory" />
+    <MESSAGE value="  - TSPHP-657 Assignments can only be made to variables&#10;  - TSPHP-698 an assignment to a const should not be possible other than initialisation&#10;  - Improved readability of AssignHelper" />
+    <MESSAGE value="  - TSPHP-657 Assignments can only be made to variables &#10;  - TSPHP-698 an assignment to a const should not be possible other than initialisation&#10;  - Improved readability of &#10;  - Obviously I forgot to add TypeCheckPhaseController in the last commit, should fix build&#10;" />
+    <MESSAGE value="  * TSPHP-621 break 0 not allowed&#10;  * Cleanups in test" />
+    <MESSAGE value="  * TSPHP-615 doubleDefinitionCheck return true when no error&#10;    * renaming in ScopeHelper&#10;    * renaming in IReferencePhaseController" />
+    <option name="LAST_COMMIT_MESSAGE" value="  * TSPHP-615 doubleDefinitionCheck return true when no error&#10;    * renaming in ScopeHelper&#10;    * renaming in IReferencePhaseController" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+    <buildFile url="file://$PROJECT_DIR$/build.xml">
+      <targetFilters>
+        <filter targetName="info" isVisible="true" />
+        <filter targetName="copyAntlr" isVisible="true" />
+        <filter targetName="antlr" isVisible="false" />
+        <filter targetName="antlrworks" isVisible="false" />
+        <filter targetName="copyParser" isVisible="true" />
+        <filter targetName="copyCommon" isVisible="true" />
+        <filter targetName="init" isVisible="true" />
+        <filter targetName="generate" isVisible="true" />
+        <filter targetName="compile" isVisible="true" />
+        <filter targetName="jar" isVisible="true" />
+        <filter targetName="test" isVisible="true" />
+        <filter targetName="checkstyle" isVisible="true" />
+        <filter targetName="pmd" isVisible="true" />
+        <filter targetName="cpd" isVisible="true" />
+        <filter targetName="findbugs" isVisible="false" />
+        <filter targetName="javadoc" isVisible="true" />
+        <filter targetName="dist" isVisible="true" />
+        <filter targetName="run" isVisible="true" />
+        <filter targetName="clean" isVisible="true" />
+        <filter targetName="report" isVisible="true" />
+        <filter targetName="build" isVisible="true" />
+      </targetFilters>
+      <expanded value="true" />
+    </buildFile>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/scopes/AScopeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/scopes/ConditionalScopeIsInitialisedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4080" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/error/TypeCheckErrorReporterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="13" selection-start="829" selection-end="829" vertical-scroll-proportion="0.1696113" vertical-offset="0" max-vertical-offset="1536" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/ACastingMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="745" selection-end="745" vertical-scroll-proportion="0.4651163" vertical-offset="0" max-vertical-offset="944" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/TypeChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="162" column="0" selection-start="6851" selection-end="6851" vertical-scroll-proportion="2.689855" vertical-offset="736" max-vertical-offset="3312" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/scopes/ConditionalScopeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="13" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3424" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/scopes/ConditionalScope_AScope_LSPTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="496" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/scopes/GlobalNamespaceIsInitialisedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1408" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/scopes/GlobalNamespaceScopeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="13" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3584" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/scopes/GlobalNamespaceScope_AScope_LSPTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="496" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/scopes/NamespaceScopeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="13" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9040" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/scopes/ScopeFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1552" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/utils/MapHelperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="592" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/integration/typecheck/ReturnTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="1339" selection-end="1419" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="800" />
+      </provider>
+    </entry>
+    <entry file="file://D:/tsphp-common/src/ch/tutteli/tsphp/common/ITypeSymbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="19" selection-start="113" selection-end="124" vertical-scroll-proportion="0.18635607" vertical-offset="0" max-vertical-offset="601" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/scopes/ScopeHelperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="13" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.0" vertical-offset="376" max-vertical-offset="6240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/erroneous/IErroneousTypeSymbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="203" selection-end="203" vertical-scroll-proportion="0.10491803" vertical-offset="0" max-vertical-offset="610" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/erroneous/IErroneousSymbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="17" selection-start="224" selection-end="224" vertical-scroll-proportion="0.17977528" vertical-offset="0" max-vertical-offset="623" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/AScopedSymbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="22" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1168" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/scopes/ICaseInsensitiveScope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/IInterfaceTypeSymbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="59" selection-start="106" selection-end="106" vertical-scroll-proportion="0.055267703" vertical-offset="0" max-vertical-offset="579" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/InterfaceTypeSymbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="78" selection-start="331" selection-end="331" vertical-scroll-proportion="0.10648918" vertical-offset="0" max-vertical-offset="601" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/ICanBeAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="31" selection-start="64" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="208" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/ClassTypeSymbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="76" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="880" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/IClassTypeSymbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="51" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="368" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/IPolymorphicTypeSymbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="38" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="320" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/ITypeCheckErrorReporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="182" column="31" selection-start="8136" selection-end="8136" vertical-scroll-proportion="0.0" vertical-offset="2266" max-vertical-offset="2832" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/IErrorMessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="33" selection-start="697" selection-end="697" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="400" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/WrongArgumentTypeErrorDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="368" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/VisibilityErrorDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="11" selection-start="179" selection-end="179" vertical-scroll-proportion="0.15664336" vertical-offset="0" max-vertical-offset="715" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/TypeCheckErrorDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="58" selection-end="58" vertical-scroll-proportion="0.046783626" vertical-offset="0" max-vertical-offset="684" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/ErrorMessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="219" column="12" selection-start="14593" selection-end="14593" vertical-scroll-proportion="0.5142315" vertical-offset="3217" max-vertical-offset="4736" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/erroneous/ErroneousTypeSymbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="0" selection-start="2080" selection-end="2080" vertical-scroll-proportion="0.5" vertical-offset="514" max-vertical-offset="1456" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/AErrorMessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="46" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.52459013" vertical-offset="144" max-vertical-offset="3792" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/TypeCheckErrorReporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="682" column="54" selection-start="29789" selection-end="29789" vertical-scroll-proportion="0.6830601" vertical-offset="10169" max-vertical-offset="10800" />
+      </provider>
+    </entry>
+    <entry file="file://C:/tsphp/tsphp.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Detection</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>tsphp-typechecker</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>dev</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
