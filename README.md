@@ -3,7 +3,7 @@ tsphp-intellij-projects
 
 Contain project templates for intellij's IDEA community edition of all TSPHP components as well as a dictionary en_GB
 
-They shall help you to get started contributing to the project. Follow the instructions given in the [Contribute to the project](http://tsphp.tutteli.ch/wiki/display/TSPHP/Contribute+to+the+project "Contribute to the project - wiki page") page on the [wiki](http://tsphp.tutteli.ch/wiki "TSPHP's wiki")
+They shall help you to get started contributing to the project. Follow the instructions given in the [Contribute to the project](http://tsphp.ch/wiki/display/TSPHP/Contribute+to+the+project "Contribute to the project - wiki page") page on the [wiki](http://tsphp.ch/wiki "TSPHP's wiki")
 
 Very briefly:
 
@@ -11,3 +11,21 @@ Very briefly:
 2. download the templates (either clone the repository or just download the zip)
 3. extract the templates in the same folder as the components
 4. You should be set up and ready :)
+
+<br/>
+
+---
+
+Copyright 2013 Robert Stoll <rstoll@tutteli.ch>
+
+Licensed under the Apache License, Version 2.0 (the "License");  
+you may not use this file except in compliance with the License.  
+You may obtain a copy of the License at  
+
+[http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+Unless required by applicable law or agreed to in writing, software  
+distributed under the License is distributed on an "AS IS" BASIS,  
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  
+See the License for the specific language governing permissions and  
+limitations under the License.
