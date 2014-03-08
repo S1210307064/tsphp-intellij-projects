@@ -94,57 +94,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/ITypeSystem.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/TypeSystem.java" />
-        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/integration/testutils/definition/ADefinitionTest.java" />
-        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/integration/testutils/typecheck/AssignHelper.java" />
-        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/integration/typecheck/ConstantDeclarationTest.java" />
-        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/integration/typecheck/AssignmentOperatorErrorTest.java" />
-        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/integration/typecheck/AssignmentOperatorTest.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/IVisibilityChecker.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/PolymorphicResolver.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/SymbolResolver.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/IPolymorphicResolver.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/antlrmod/ErrorReportingTSPHPTypeCheckWalker.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/antlrmod/ErrorReportingTSPHPReferenceWalker.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/antlr/TSPHPReferenceWalker.java" />
-        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/integration/testutils/reference/AReferenceTest.java" />
-        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/integration/testutils/typecheck/ATypeCheckTest.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/VisibilityChecker.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/AccessResolver.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/IAccessResolver.java" />
-        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/ReferencePhaseControllerErroneousSymbolTest.java" />
-        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/ReferencePhaseControllerTest.java" />
-        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/integration/reference/BreakContinueErrorTest.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/ReferencePhaseController.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/scopes/ScopeHelper.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/IReferencePhaseController.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/TypeChecker.java" />
         <option value="$PROJECT_DIR$/build.xml" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/InterfaceTypeSymbol.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/ITypeCheckPhaseController.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/AScopedTypeSymbol.java" />
-        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/TypeCheckPhaseControllerTest.java" />
-        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/TypeCheckPhaseControllerErrorTest.java" />
-        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/testutils/ATypeCheckPhaseTest.java" />
-        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/TypeCheckPhaseControllerPolymorphismErrorTest.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/IInterfaceTypeSymbol.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/IClassTypeSymbol.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/IPolymorphicTypeSymbol.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/APolymorphicTypeSymbol.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/ITypeCheckErrorReporter.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/IErrorMessageProvider.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/DiffDto.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/TupleList.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/TypeCheckPhaseController.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/TwoList.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/TwoListDto.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/WrongImplementationErrorDto.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/TypeCheckErrorReporter.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/erroneous/ErroneousTypeSymbol.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/AErrorMessageProvider.java" />
-        <option value="$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/TypeCheckPhaseControllerErroneousSymbolTest.java" />
-        <option value="$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/ErrorMessageProvider.java" />
       </list>
     </option>
   </component>
@@ -156,62 +106,6 @@
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Android Lint</id>
-          </State>
-          <State>
-            <id>Error handling</id>
-          </State>
-          <State>
-            <id>Groovy</id>
-          </State>
-          <State>
-            <id>JUnit issues</id>
-          </State>
-          <State>
-            <id>Logging issues</id>
-          </State>
-          <State>
-            <id>Memory issues</id>
-          </State>
-          <State>
-            <id>Pattern Validation</id>
-          </State>
-          <State>
-            <id>Portability issues</id>
-          </State>
-          <State>
-            <id>Potentially confusing code constructsGroovy</id>
-          </State>
-          <State>
-            <id>Probable bugs</id>
-          </State>
-          <State>
-            <id>Security issues</id>
-          </State>
-          <State>
-            <id>Serialization issues</id>
-          </State>
-          <State>
-            <id>Threading issues</id>
-          </State>
-          <State>
-            <id>Threading issuesGroovy</id>
-          </State>
-          <State>
-            <id>XPath</id>
-          </State>
-        </expanded-state>
-      </profile-state>
-    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />

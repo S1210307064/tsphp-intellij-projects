@@ -1,0 +1,6 @@
+<project name="p" basedir="../">
+    <fail>You should modify the lines below (personal settings) and then remove this line</fail>
+    <property name="tomcat.home" location="C:\xampp\tomcat\"/>
+    <property name="webRoot" location="${tomcat.home}/webapps"/>
+    <property name="localServer" location="http://localhost:8080"/>
+</project>
