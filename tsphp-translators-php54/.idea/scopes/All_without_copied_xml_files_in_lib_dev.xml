@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="All without copied xml files in lib/dev" pattern="src:*..*||test:*..*||file:ant/*||file:antlr/*||file:lib/dev/checkstyle/cfg/*||file:lib/dev/findbugs/*||file:lib/dev/pmd/cfg/*||file:build.xml||file:lib/dev/tpl.QA.html" />
+</component>
