@@ -1,9 +1,9 @@
 tsphp-intellij-projects
 =======================
 
-Contain project templates for intellij's IDEA community edition of all TSPHP components as well as a dictionary en_GB
+Contains project templates for intellij's IDEA community edition of all TSPHP components as well as a dictionary en_GB and an ant build file which can be used as a helper to integrate all components (basically calls "cp.all clean build" on all components in the correct order).
 
-They shall help you to get started contributing to the project. Follow the instructions given in the [Contribute to the project](http://tsphp.ch/wiki/display/TSPHP/Contribute+to+the+project "Contribute to the project - wiki page") page on the [wiki](http://tsphp.ch/wiki "TSPHP's wiki")
+The templates shall help you to get started contributing to the project. Follow the instructions given in the [Contribute to the project](http://tsphp.ch/wiki/display/TSPHP/Contribute+to+the+project "Contribute to the project - wiki page") page on the [wiki](http://tsphp.ch/wiki "TSPHP's wiki")
 
 Very briefly:
 
