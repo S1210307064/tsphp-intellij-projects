@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e62562f-40bc-4c3c-bc08-c96bd7552ab8" name="Default" comment="  * TSPHP-615 doubleDefinitionCheck return true when no error&#10;    * renaming in ScopeHelper&#10;    * renaming in IReferencePhaseController" />
-    <ignored path="TSPHP-typechecker.iws" />
+    <ignored path="TSPHP-type-checker.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +68,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="TSPHP-typechecker" />
+    <favorites_list name="TSPHP-type-checker" />
   </component>
   <component name="FileEditorManager">
     <leaf />
@@ -138,17 +138,17 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TSPHP-typechecker" />
+              <option name="myItemId" value="TSPHP-type-checker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TSPHP-typechecker" />
+              <option name="myItemId" value="TSPHP-type-checker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tsphp-typechecker" />
+              <option name="myItemId" value="TSPHP-type-checker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -169,7 +169,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="C:/test/tsphp-typechecker" />
+    <property name="last_opened_file_path" value="C:/test/TSPHP-type-checker" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="308" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="957" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="958" />
@@ -218,8 +218,8 @@
     <key name="MoveFile.RECENT_KEYS" />
   </component>
   <component name="RunManager" selected="JUnit.TypeCheckPhaseControllerErroneousSymbolTest">
-    <configuration default="false" name="All in TSPHP-typechecker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TSPHP-typechecker" />
+    <configuration default="false" name="All in TSPHP-type-checker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TSPHP-type-checker" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
@@ -240,84 +240,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="ConstantDeclarationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TSPHP-typechecker" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ch.tutteli.tsphp.typechecker.test.integration.typecheck" />
-      <option name="MAIN_CLASS_NAME" value="ch.tutteli.tsphp.typechecker.test.integration.typecheck.ConstantDeclarationTest" />
-      <option name="METHOD_NAME" value="testStrings" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="ReferencePhaseControllerTest.checkBreakContinueLevel_Level0_CallsErrorReporter0NotAllowed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TSPHP-typechecker" />
+      <module name="TSPHP-type-checker" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ch.tutteli.tsphp.typechecker.test.unit" />
       <option name="MAIN_CLASS_NAME" value="ch.tutteli.tsphp.typechecker.test.unit.ReferencePhaseControllerTest" />
       <option name="METHOD_NAME" value="checkBreakContinueLevel_Level0_CallsErrorReporter0NotAllowed" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="BreakContinueErrorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TSPHP-typechecker" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ch.tutteli.tsphp.typechecker.test.integration.reference" />
-      <option name="MAIN_CLASS_NAME" value="ch.tutteli.tsphp.typechecker.test.integration.reference.BreakContinueErrorTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TypeCheckPhaseControllerErroneousSymbolTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TSPHP-typechecker" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ch.tutteli.tsphp.typechecker.test.unit" />
-      <option name="MAIN_CLASS_NAME" value="ch.tutteli.tsphp.typechecker.test.unit.TypeCheckPhaseControllerErroneousSymbolTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -459,30 +389,9 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="false" name="UseDoubleDefinitionErrorTest" type="JUnit" factoryName="JUnit">
-      <module name="TSPHP-typechecker" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ch.tutteli.tsphp.typechecker.test.integration.reference" />
-      <option name="MAIN_CLASS_NAME" value="ch.tutteli.tsphp.typechecker.test.integration.reference.UseDoubleDefinitionErrorTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+   
     <configuration default="false" name="NamespaceScopeTest" type="JUnit" factoryName="JUnit">
-      <module name="TSPHP-typechecker" />
+      <module name="TSPHP-type-checker" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ch.tutteli.tsphp.typechecker.test.unit.scopes" />
@@ -506,7 +415,7 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="JUnit.UseDoubleDefinitionErrorTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.NamespaceScopeTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.All in TSPHP-typechecker" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All in TSPHP-type-checker" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.ConstantDeclarationTest" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.ReferencePhaseControllerTest.checkBreakContinueLevel_Level0_CallsErrorReporter0NotAllowed" />
       <item index="5" class="java.lang.String" itemvalue="JUnit.BreakContinueErrorTest" />
@@ -515,7 +424,7 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.TypeCheckPhaseControllerErroneousSymbolTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in TSPHP-typechecker" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.All in TSPHP-type-checker" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.BreakContinueErrorTest" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.ReferencePhaseControllerTest.checkBreakContinueLevel_Level0_CallsErrorReporter0NotAllowed" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.ConstantDeclarationTest" />
@@ -766,12 +675,6 @@
     <MESSAGE value="TSPHP-531 Initial value class members and cast modifier &#10;- added new check&#10;- added new error message&#10;- added corresponding tests" />
     <MESSAGE value="- added modifier to the function/method return error test as well&#10;- some small cleanups" />
     <MESSAGE value="TSPHP-462 check that variable is initialised&#10;- added new version of common component (includes isFullyInitialised etc.)&#10;- implemented the new check, additional code in the reference tree walker was necessary as well as additional setScope calls in the definition walker&#10;- added new integration tests for the new constraint&#10;- had to fix quite a lot of existing tests since they were no longer valid due to the new constraint&#10;&#10;TSPHP-463 check that method has a return value&#10;- Simplified the check in the reference walker (no longer using an enum)&#10;- Fixed the check in order that it returns the correct error message&#10;&#10;- Added latest parser component&#10;- Improved a few tests concerning readability and extensibility" />
-    <MESSAGE value="- TSPHP-660 Rename token CASTING_ASSIGN to CAST_ASSIGN - new parser tokens included&#10;- removed copyright notices in package-info.java files (left over)&#10;- added improved version of copyAntlr" />
-    <MESSAGE value="  - TSPHP-503 TypeCheckerController is too big&#10;    - created IReferencePhaseController and moved methods accordingly&#10;    - Renamed Definer to DefinitionPhaseController to be consistent with the other phase controllers&#10;    - Created IVisibilityChecker which contains the access check which is used in the reference phase as well as in the type check phase&#10;    - modified tests where necessary&#10;  - deleted TypeCheckerControllerIsReturningTest because it was a left  over (return check was simplified in v. 0.5.3)&#10;  - Improved ATypeSystemTest concerning extensibility&#10;  - Removed several hidden dependencies and moved them to the constructor of the corresponding classes&#10;  - TypeSystem had an init method which was called by the TypeCheckerController. Quite ugly, removed it. Yet, there is still a cyclic dependency between TypeSystem and SymbolFactory" />
-    <MESSAGE value="  - TSPHP-657 Assignments can only be made to variables&#10;  - TSPHP-698 an assignment to a const should not be possible other than initialisation&#10;  - Improved readability of AssignHelper" />
-    <MESSAGE value="  - TSPHP-657 Assignments can only be made to variables &#10;  - TSPHP-698 an assignment to a const should not be possible other than initialisation&#10;  - Improved readability of &#10;  - Obviously I forgot to add TypeCheckPhaseController in the last commit, should fix build&#10;" />
-    <MESSAGE value="  * TSPHP-621 break 0 not allowed&#10;  * Cleanups in test" />
-    <MESSAGE value="  * TSPHP-615 doubleDefinitionCheck return true when no error&#10;    * renaming in ScopeHelper&#10;    * renaming in IReferencePhaseController" />
     <option name="LAST_COMMIT_MESSAGE" value="  * TSPHP-615 doubleDefinitionCheck return true when no error&#10;    * renaming in ScopeHelper&#10;    * renaming in IReferencePhaseController" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
@@ -820,201 +723,6 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/scopes/AScopeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/scopes/ConditionalScopeIsInitialisedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4080" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/error/TypeCheckErrorReporterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="13" selection-start="829" selection-end="829" vertical-scroll-proportion="0.1696113" vertical-offset="0" max-vertical-offset="1536" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/ACastingMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="745" selection-end="745" vertical-scroll-proportion="0.4651163" vertical-offset="0" max-vertical-offset="944" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/TypeChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="0" selection-start="6851" selection-end="6851" vertical-scroll-proportion="2.689855" vertical-offset="736" max-vertical-offset="3312" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/scopes/ConditionalScopeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="13" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3424" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/scopes/ConditionalScope_AScope_LSPTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="496" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/scopes/GlobalNamespaceIsInitialisedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1408" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/scopes/GlobalNamespaceScopeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3584" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/scopes/GlobalNamespaceScope_AScope_LSPTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="496" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/scopes/NamespaceScopeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="13" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9040" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/scopes/ScopeFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1552" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/utils/MapHelperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="592" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/integration/typecheck/ReturnTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1339" selection-end="1419" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="800" />
-      </provider>
-    </entry>
-    <entry file="file://D:/tsphp-common/src/ch/tutteli/tsphp/common/ITypeSymbol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="113" selection-end="124" vertical-scroll-proportion="0.18635607" vertical-offset="0" max-vertical-offset="601" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ch/tutteli/tsphp/typechecker/test/unit/scopes/ScopeHelperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="13" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.0" vertical-offset="376" max-vertical-offset="6240" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/erroneous/IErroneousTypeSymbol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="203" selection-end="203" vertical-scroll-proportion="0.10491803" vertical-offset="0" max-vertical-offset="610" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/erroneous/IErroneousSymbol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="224" selection-end="224" vertical-scroll-proportion="0.17977528" vertical-offset="0" max-vertical-offset="623" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/AScopedSymbol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="22" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1168" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/scopes/ICaseInsensitiveScope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/IInterfaceTypeSymbol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="59" selection-start="106" selection-end="106" vertical-scroll-proportion="0.055267703" vertical-offset="0" max-vertical-offset="579" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/InterfaceTypeSymbol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="78" selection-start="331" selection-end="331" vertical-scroll-proportion="0.10648918" vertical-offset="0" max-vertical-offset="601" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/ICanBeAbstract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="31" selection-start="64" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="208" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/ClassTypeSymbol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="76" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="880" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/IClassTypeSymbol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="51" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="368" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/IPolymorphicTypeSymbol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="38" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="320" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/ITypeCheckErrorReporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="31" selection-start="8136" selection-end="8136" vertical-scroll-proportion="0.0" vertical-offset="2266" max-vertical-offset="2832" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/IErrorMessageProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="33" selection-start="697" selection-end="697" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="400" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/WrongArgumentTypeErrorDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="368" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/VisibilityErrorDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="11" selection-start="179" selection-end="179" vertical-scroll-proportion="0.15664336" vertical-offset="0" max-vertical-offset="715" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/TypeCheckErrorDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="58" selection-end="58" vertical-scroll-proportion="0.046783626" vertical-offset="0" max-vertical-offset="684" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/ErrorMessageProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="219" column="12" selection-start="14593" selection-end="14593" vertical-scroll-proportion="0.5142315" vertical-offset="3217" max-vertical-offset="4736" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/symbols/erroneous/ErroneousTypeSymbol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="2080" selection-end="2080" vertical-scroll-proportion="0.5" vertical-offset="514" max-vertical-offset="1456" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/AErrorMessageProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="46" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.52459013" vertical-offset="144" max-vertical-offset="3792" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/tutteli/tsphp/typechecker/error/TypeCheckErrorReporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="682" column="54" selection-start="29789" selection-end="29789" vertical-scroll-proportion="0.6830601" vertical-offset="10169" max-vertical-offset="10800" />
-      </provider>
-    </entry>
-    <entry file="file://C:/tsphp/tsphp.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
           <folding />
         </state>
       </provider>
@@ -1071,7 +779,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>tsphp-typechecker</last-edited>
+          <last-edited>tsphp-type-checker</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
